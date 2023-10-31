@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="HinhCN"/>
+    <fullyQualifiedTypeName name="HinhV"/>
+    <fullyQualifiedTypeName name="com.trungtamjava.hinhhoc.HinhVuong"/>
+    <fullyQualifiedTypeName name="com.trungtamjava.hinhhoc.HinhChuNhat"/>
+    <fullyQualifiedTypeName name="HinhVuong"/>
+    <fullyQualifiedTypeName name="HinhChuNhat"/>
+    <fullyQualifiedTypeName name="HinhTron"/>
+    <fullyQualifiedTypeName name="HinhTamGiacVuong"/>
+    <fullyQualifiedTypeName name="PhuongTrinhBacNhat"/>
+    <fullyQualifiedTypeName name="com.trungtamjava.hinhoc.HinhVuong"/>
+    <fullyQualifiedTypeName name="com.trungtamjava.hinhoc.HinhChuNhat"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th>AGE</th>
+		</tr>
+		
+		<tr th:each = "p : ${personList}">
+			<td th:text = "${p.id}"></td>
+			<td th:text = "${p.name}"></td>
+			<td th:text = "${p.age}"></td>
+			<td><a th:href="@{'/myspace/delete?id=' + ${p.id}}">Delete</a></td>
+		</tr>
+	</table>
+
+</body>
+</html>

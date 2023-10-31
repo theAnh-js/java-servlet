@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form th:action="@{/user/new}" method="post" enctype="multipart/form-data">
+		<div>
+			<input type="text" name="name" placeholder="name...">
+		</div>
+
+		<div>
+			<input type="text" name="birthdate"
+				placeholder="birthdate(dd/MM/yyyy)">
+		</div>
+		
+		<div>
+			<input type="file" name="file" accept="image/*">
+		</div>
+		
+		<div>
+			<input type="text" name="username" placeholder="username...">
+		</div>
+		
+		<div>
+			<input type="password" name="password" placeholder="password...">
+		</div>
+		
+		<div>
+			<input type="checkbox" name="userRoles[0].role" accept="image/*" value = "ROLE_ADMIN">
+			 ROLE_ADMIN
+		</div>
+		
+		<div>
+			<input type="checkbox" name="userRoles[1].role" accept="image/*" value = "ROLE_STUDENT">
+			ROLE_STUDENT
+		</div>
+		
+		<div>
+		 	<button type="submit">Create</button>
+		</div>
+	</form>
+</body>
+</html>

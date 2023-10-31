@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form th:action="@{/person/edit}" method="post">
+		<input name="id" th:value="${person.id}" readonly="readonly">
+		<input name="name" th:value="${person.name}">
+		<input name="age" th:value="${person.age}">
+		<button type="submit">Save</button>
+	</form>
+
+</body>
+</html>
